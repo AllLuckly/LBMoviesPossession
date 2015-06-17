@@ -12,6 +12,7 @@
 		49A6757D1B2FEE940033EC0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A6757C1B2FEE940033EC0F /* Images.xcassets */; };
 		49A675801B2FEE940033EC0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A6757E1B2FEE940033EC0F /* LaunchScreen.xib */; };
 		49A6758C1B2FEE940033EC0F /* LBMoviesPossessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6758B1B2FEE940033EC0F /* LBMoviesPossessionTests.m */; };
+		49A675971B2FEECA0033EC0F /* LBMovies_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A675961B2FEECA0033EC0F /* LBMovies_VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		49A675851B2FEE940033EC0F /* LBMoviesPossessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBMoviesPossessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A6758A1B2FEE940033EC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A6758B1B2FEE940033EC0F /* LBMoviesPossessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMoviesPossessionTests.m; sourceTree = "<group>"; };
+		49A675951B2FEECA0033EC0F /* LBMovies_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMovies_VC.h; sourceTree = "<group>"; };
+		49A675961B2FEECA0033EC0F /* LBMovies_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMovies_VC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				49A675791B2FEE940033EC0F /* AppDelegate.h */,
 				49A6757A1B2FEE940033EC0F /* AppDelegate.m */,
+				49A675951B2FEECA0033EC0F /* LBMovies_VC.h */,
+				49A675961B2FEECA0033EC0F /* LBMovies_VC.m */,
 				49A6757C1B2FEE940033EC0F /* Images.xcassets */,
 				49A6757E1B2FEE940033EC0F /* LaunchScreen.xib */,
 				49A675751B2FEE940033EC0F /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A675971B2FEECA0033EC0F /* LBMovies_VC.m in Sources */,
 				49A6757B1B2FEE940033EC0F /* AppDelegate.m in Sources */,
 				49A675781B2FEE940033EC0F /* main.m in Sources */,
 			);
